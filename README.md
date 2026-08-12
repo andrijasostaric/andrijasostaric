@@ -16,8 +16,8 @@ If you only have a minute, start here:
 1. **[PMO Governance Toolkit](https://github.com/andrijasostaric/pmo-governance-toolkit)** — how I structure ownership, RAID, decisions and governance.
 2. **[Operational Excellence & Automation](https://github.com/andrijasostaric/operational-excellence-automation)** — how I analyse and redesign a manual operational workflow.
 3. **[GRC Programme Delivery Toolkit](https://github.com/andrijasostaric/grc-program-delivery-toolkit)** — how I organise controls, evidence, remediation and audit readiness.
-4. **[30–60–90 Day Delivery Plan](./case-studies/30-60-90-day-delivery-plan.md)** — how I approach a new programme.
-5. **[Remote Delivery Operating Model](./case-studies/remote-delivery-operating-model.md)** — how I structure distributed delivery without unnecessary meeting load.
+4. **[48-Hour Project Rescue Simulation](./case-studies/48-hour-project-rescue-simulation.md)** — how I restore control when a programme is slipping.
+5. **[Executive Decision Memo](./case-studies/executive-decision-memo.md)** — how I turn project detail into a decision-ready one-pager.
 
 ## Selected outcomes
 
@@ -49,6 +49,15 @@ A fictional financial-services case study showing how a manual vendor-onboarding
 
 ### [GRC Programme Delivery Toolkit](https://github.com/andrijasostaric/grc-program-delivery-toolkit)
 A fictional SaaS ISO 27001 readiness programme showing control ownership, evidence tracking, remediation, audit readiness and third-party risk workflow.
+
+## Thinking under pressure
+
+Templates are useful, but project leadership is more visible when the situation is messy. These short simulations show the judgement behind the artefacts:
+
+- **[48-Hour Project Rescue Simulation](./case-studies/48-hour-project-rescue-simulation.md)** — slipping milestones, conflicting views, weak dependencies and ageing decisions.
+- **[Executive Decision Memo](./case-studies/executive-decision-memo.md)** — concise recommendation, options, impact and latest-safe decision date.
+- **[30–60–90 Day Delivery Plan](./case-studies/30-60-90-day-delivery-plan.md)** — how I approach a new programme without imposing process before understanding the work.
+- **[Remote Delivery Operating Model](./case-studies/remote-delivery-operating-model.md)** — written-first coordination, explicit ownership and decision-focused meetings.
 
 ## Interactive portfolio experiment
 
