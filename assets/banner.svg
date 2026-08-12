@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Andrija Sostaric — Project, Programme and Operations Manager</title>
+  <desc id="desc">Professional portfolio banner highlighting PMO, operational excellence, GRC, financial services and technology.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D2748"/>
+      <stop offset="100%" stop-color="#172F55"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A2341"/>
+      <stop offset="100%" stop-color="#B04B68"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1090" cy="30" r="180" fill="#ffffff" opacity="0.035"/>
+  <circle cx="1030" cy="280" r="120" fill="#ffffff" opacity="0.025"/>
+  <rect x="72" y="58" width="88" height="8" rx="4" fill="url(#accent)"/>
+  <text x="72" y="125" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Andrija Sostaric</text>
+  <text x="72" y="171" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#DCE6F3">Project · Programme · Operations</text>
+  <text x="72" y="211" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#BFCDE0">PMO  •  Operational Excellence  •  GRC  •  Financial Services  •  Technology</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">
+    <rect x="72" y="246" width="174" height="42" rx="21" fill="#ffffff" opacity="0.10"/>
+    <text x="159" y="272" text-anchor="middle" fill="#ffffff">Remote delivery</text>
+    <rect x="262" y="246" width="194" height="42" rx="21" fill="#ffffff" opacity="0.10"/>
+    <text x="359" y="272" text-anchor="middle" fill="#ffffff">Cross-functional</text>
+    <rect x="472" y="246" width="186" height="42" rx="21" fill="#ffffff" opacity="0.10"/>
+    <text x="565" y="272" text-anchor="middle" fill="#ffffff">Regulated environments</text>
+  </g>
+  <g transform="translate(870 92)">
+    <rect x="0" y="0" width="250" height="142" rx="16" fill="#ffffff" opacity="0.08"/>
+    <text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#C9D6E8">DELIVERY PRINCIPLE</text>
+    <text x="24" y="72" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Clarity → Ownership</text>
+    <text x="24" y="101" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#ffffff">→ Decisions → Results</text>
+    <rect x="24" y="119" width="122" height="5" rx="3" fill="url(#accent)"/>
+  </g>
+</svg>
