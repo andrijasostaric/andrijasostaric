@@ -69,6 +69,16 @@ The live portfolio is deliberately more than a static CV. It includes:
 
 **[Open the live portfolio →](https://andrijasostaric.github.io/andrijasostaric/portfolio/)**
 
+## Personal projects in progress
+
+These are small products built around interests I genuinely use, rather than portfolio-only exercises:
+
+- **[RemoteBase](https://andrijasostaric.github.io/andrijasostaric/portfolio/remotebase.html)** — weighted comparison of remote-work bases by budget, time zone, climate, transport, connectivity and long-stay fit.
+- **[F1 Weekend Planner](https://andrijasostaric.github.io/andrijasostaric/portfolio/f1-weekend-planner.html)** — race-weekend budget, contingency, logistics and readiness planning.
+- **[Dive Trip Decision Engine](https://andrijasostaric.github.io/andrijasostaric/portfolio/dive-trip-engine.html)** — preference-based dive-trip ranking for wrecks, marine life, warm water, travel simplicity, value and night diving.
+
+All three are currently **v0.1 prototypes** and are intended to evolve over time.
+
 ## Delivery toolkit
 
 **Methods:** Hybrid delivery, Waterfall-style planning, Agile, Kanban  
