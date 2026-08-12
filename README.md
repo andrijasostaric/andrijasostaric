@@ -1,3 +1,5 @@
+![Andrija Sostaric — Project, Programme and Operations](./assets/banner.svg)
+
 # Andrija Sostaric
 
 **Project, Programme & Operations Manager**  
@@ -6,6 +8,25 @@ PMO · Operational Excellence · GRC · Compliance & Risk · Financial Services 
 I manage cross-functional projects across technology, SaaS, financial services and regulated environments. My focus is turning complex requirements into clear plans, ownership, governance and measurable delivery.
 
 I have several years of experience working in fully remote, international environments and coordinating distributed teams across functions and locations.
+
+## 60-second recruiter tour
+
+If you only have a minute, start here:
+
+1. **[PMO Governance Toolkit](https://github.com/andrijasostaric/pmo-governance-toolkit)** — how I structure ownership, RAID, decisions and governance.
+2. **[Operational Excellence & Automation](https://github.com/andrijasostaric/operational-excellence-automation)** — how I analyse and redesign a manual operational workflow.
+3. **[GRC Programme Delivery Toolkit](https://github.com/andrijasostaric/grc-program-delivery-toolkit)** — how I organise controls, evidence, remediation and audit readiness.
+4. **[30–60–90 Day Delivery Plan](./case-studies/30-60-90-day-delivery-plan.md)** — how I approach a new programme.
+5. **[Remote Delivery Operating Model](./case-studies/remote-delivery-operating-model.md)** — how I structure distributed delivery without unnecessary meeting load.
+
+## Selected outcomes
+
+| Outcome | Context |
+|---|---|
+| **~3 months** | ISO 27001 audit-readiness programme delivered in a compressed timeframe |
+| **9%** | Operating-cost reduction contribution through centralisation and process improvement |
+| **24%** | Average handling-time reduction through process and service-quality improvement |
+| **Multi-year remote delivery** | Cross-functional work across international, distributed teams |
 
 ## What I work on
 
@@ -29,6 +50,13 @@ A fictional financial-services case study showing how a manual vendor-onboarding
 ### [GRC Programme Delivery Toolkit](https://github.com/andrijasostaric/grc-program-delivery-toolkit)
 A fictional SaaS ISO 27001 readiness programme showing control ownership, evidence tracking, remediation, audit readiness and third-party risk workflow.
 
+## Interactive portfolio experiment
+
+I also built a lightweight **Project Health Check** that turns seven delivery-health factors into a live RAG-style assessment and recommended focus. It is intentionally simple: the point is to demonstrate how I think about project health, not to present myself as a software engineer.
+
+**Source:** [portfolio/index.html](./portfolio/index.html)  
+**Live version once GitHub Pages is enabled:** `https://andrijasostaric.github.io/andrijasostaric/portfolio/`
+
 ## Delivery toolkit
 
 **Methods:** Hybrid delivery, Waterfall-style planning, Agile, Kanban  
@@ -50,4 +78,4 @@ A fictional SaaS ISO 27001 readiness programme showing control ownership, eviden
 
 ---
 
-*Portfolio note: the examples in these repositories are fictionalised demonstrations created to show my project-management approach. They do not contain confidential information, employer data, client data or proprietary materials.*
+*Portfolio integrity: examples in these repositories are synthetic or fictionalised demonstrations created to show my project-management approach. They do not contain confidential information, employer data, client data, audit evidence or proprietary materials.*
