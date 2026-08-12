@@ -3,97 +3,45 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Andrija Sostaric — Project, Programme and Operations portfolio." />
-  <title>Andrija Sostaric | Project & Programme Portfolio</title>
+  <meta name="description" content="Andrija Sostaric — interactive project, programme, operations and GRC delivery portfolio." />
+  <title>Andrija Sostaric | Project Delivery Portfolio</title>
   <style>
     :root{--navy:#0d2748;--navy2:#17365f;--wine:#8a2341;--bg:#f5f7fa;--card:#fff;--text:#192231;--muted:#657184;--line:#dce3ec;--green:#237a57;--amber:#b56a00;--red:#b23b3b}
     *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
     a{color:var(--navy2);text-decoration:none} a:hover{text-decoration:underline}
-    .hero{background:linear-gradient(135deg,var(--navy),#1c3b67);color:white;padding:64px 24px 52px}
-    .wrap{max-width:1080px;margin:auto}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#d3deed}.accent{width:76px;height:6px;background:var(--wine);border-radius:4px;margin:14px 0 22px}
-    h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin:0 0 14px} .sub{font-size:clamp(18px,2.5vw,27px);font-weight:650;color:#dce6f3;margin:0}.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.tag{border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.08);padding:8px 13px;border-radius:999px;font-size:14px}
-    main{padding:32px 24px 70px}.section{margin:34px 0} h2{font-size:28px;margin:0 0 16px;color:var(--navy)} h3{color:var(--navy);margin-top:0}
-    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 5px 18px rgba(24,42,72,.05)}
-    .metric{font-size:34px;font-weight:800;color:var(--wine);line-height:1}.metric-label{margin-top:8px;font-size:14px;color:var(--muted)}
-    .portfolio-card{min-height:190px}.portfolio-card p{color:var(--muted)}.button{display:inline-block;margin-top:8px;background:var(--navy);color:white;padding:10px 14px;border-radius:9px;font-weight:700}.button:hover{text-decoration:none;background:var(--navy2)}
+    .hero{background:linear-gradient(135deg,var(--navy),#1c3b67);color:white;padding:64px 24px 52px}.wrap{max-width:1080px;margin:auto}
+    .eyebrow{font-size:13px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#d3deed}.accent{width:76px;height:6px;background:var(--wine);border-radius:4px;margin:14px 0 22px}
+    h1{font-size:clamp(38px,6vw,64px);line-height:1.05;margin:0 0 14px}.sub{font-size:clamp(18px,2.5vw,27px);font-weight:650;color:#dce6f3;margin:0}.hero-copy{max-width:800px;color:#dce6f3;font-size:17px;margin-top:15px}.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.tag{border:1px solid rgba(255,255,255,.24);background:rgba(255,255,255,.08);padding:8px 13px;border-radius:999px;font-size:14px}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.hero-button{display:inline-block;background:white;color:var(--navy);padding:10px 14px;border-radius:9px;font-weight:800}.hero-button.alt{background:transparent;color:white;border:1px solid #ffffff50}.hero-button:hover{text-decoration:none}
+    main{padding:32px 24px 70px}.section{margin:34px 0}h2{font-size:28px;margin:0 0 16px;color:var(--navy)}h3{color:var(--navy);margin-top:0}.lead{max-width:830px;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 5px 18px rgba(24,42,72,.05)}
+    .metric{font-size:34px;font-weight:800;color:var(--wine);line-height:1}.metric-label{margin-top:8px;font-size:14px;color:var(--muted)}.portfolio-card{min-height:190px}.portfolio-card p,.lab p{color:var(--muted)}
+    .button{display:inline-block;margin-top:8px;background:var(--navy);color:white;padding:10px 14px;border-radius:9px;font-weight:700}.button:hover{text-decoration:none;background:var(--navy2)}.lab{position:relative;overflow:hidden}.lab:before{content:'LIVE';position:absolute;right:16px;top:16px;background:#e9f5ef;color:var(--green);padding:4px 8px;border-radius:999px;font-size:11px;font-weight:850;letter-spacing:.08em}.lab-icon{font-size:28px;margin-bottom:8px}
     .health{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.question{margin:15px 0}.question label{display:flex;justify-content:space-between;font-weight:650;margin-bottom:6px}.question small{color:var(--muted)}input[type=range]{width:100%;accent-color:var(--wine)}
     .scorebox{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:var(--navy);color:white;border-radius:16px;padding:24px}.score{font-size:72px;font-weight:850;line-height:1}.status{font-weight:800;margin-top:8px;font-size:21px}.advice{font-size:14px;color:#dce6f3;margin-top:12px;max-width:320px}
-    .timeline{border-left:3px solid var(--wine);padding-left:22px}.timeline div{margin:18px 0}.timeline strong{color:var(--navy)}
-    .notice{background:#fff8ed;border:1px solid #f1d4a7;border-radius:12px;padding:14px 16px;color:#704b16}
-    footer{padding:28px 24px;background:#e9eef5;color:#4f5c6e;text-align:center;font-size:14px}
-    @media(max-width:800px){.grid,.health{grid-template-columns:1fr}.hero{padding-top:45px}.scorebox{min-height:260px}}
+    .timeline{border-left:3px solid var(--wine);padding-left:22px}.timeline div{margin:18px 0}.timeline strong{color:var(--navy)}.notice{background:#fff8ed;border:1px solid #f1d4a7;border-radius:12px;padding:14px 16px;color:#704b16}footer{padding:28px 24px;background:#e9eef5;color:#4f5c6e;text-align:center;font-size:14px}
+    @media(max-width:800px){.grid,.grid2,.health{grid-template-columns:1fr}.hero{padding-top:45px}.scorebox{min-height:260px}}
   </style>
 </head>
 <body>
-  <header class="hero">
-    <div class="wrap">
-      <div class="eyebrow">Project delivery portfolio</div><div class="accent"></div>
-      <h1>Andrija Sostaric</h1>
-      <p class="sub">Project · Programme · Operations</p>
-      <div class="tags"><span class="tag">PMO</span><span class="tag">Operational Excellence</span><span class="tag">GRC</span><span class="tag">Financial Services</span><span class="tag">Technology</span><span class="tag">Remote Delivery</span></div>
-    </div>
-  </header>
+  <header class="hero"><div class="wrap"><div class="eyebrow">Project delivery portfolio</div><div class="accent"></div><h1>Andrija Sostaric</h1><p class="sub">Project · Programme · Operations</p><p class="hero-copy">I turn cross-functional complexity into clear ownership, visible risks and dependencies, decision-ready reporting and practical delivery systems. This portfolio shows the thinking behind the CV — including live simulations you can interact with.</p><div class="tags"><span class="tag">PMO</span><span class="tag">Operational Excellence</span><span class="tag">GRC</span><span class="tag">Financial Services</span><span class="tag">Technology</span><span class="tag">Remote Delivery</span></div><div class="hero-actions"><a class="hero-button" href="command-centre.html">Open Programme Command Centre</a><a class="hero-button alt" href="before-after.html">See Before → After transformation</a></div></div></header>
   <main class="wrap">
-    <section class="section">
-      <h2>What I bring</h2>
-      <p>I turn complex cross-functional work into a delivery system people can actually use: clear ownership, visible dependencies, concise governance, decision-ready reporting and practical follow-through.</p>
-      <div class="grid">
-        <div class="card"><div class="metric">~3 mo</div><div class="metric-label">ISO 27001 audit-readiness programme delivered in a compressed timeframe</div></div>
-        <div class="card"><div class="metric">9%</div><div class="metric-label">Operating-cost reduction contribution through centralisation and process improvement</div></div>
-        <div class="card"><div class="metric">24%</div><div class="metric-label">Average handling-time reduction through process and service-quality improvement</div></div>
-      </div>
-    </section>
+    <section class="section"><h2>What I bring</h2><p class="lead">A project manager should make delivery easier to understand and easier to control. I focus on ownership, dependencies, decisions, operational readiness and concise governance rather than process for its own sake.</p><div class="grid"><div class="card"><div class="metric">~3 mo</div><div class="metric-label">ISO 27001 audit-readiness programme delivered in a compressed timeframe</div></div><div class="card"><div class="metric">9%</div><div class="metric-label">Operating-cost reduction contribution through centralisation and process improvement</div></div><div class="card"><div class="metric">24%</div><div class="metric-label">Average handling-time reduction through process and service-quality improvement</div></div></div></section>
 
-    <section class="section">
-      <h2>Portfolio</h2>
-      <div class="grid">
-        <article class="card portfolio-card"><h3>PMO Governance Toolkit</h3><p>Charter, RACI, RAID, decision log, governance cadence and executive reporting for a fictional cross-functional programme.</p><a class="button" href="https://github.com/andrijasostaric/pmo-governance-toolkit">Explore toolkit</a></article>
-        <article class="card portfolio-card"><h3>Operational Excellence & Automation</h3><p>A synthetic financial-services workflow showing current-state analysis, redesign, controls, automation logic and measurable outcomes.</p><a class="button" href="https://github.com/andrijasostaric/operational-excellence-automation">Explore case study</a></article>
-        <article class="card portfolio-card"><h3>GRC Programme Delivery</h3><p>ISO 27001 readiness planning, control ownership, evidence tracking, remediation and audit-readiness structure for a fictional SaaS company.</p><a class="button" href="https://github.com/andrijasostaric/grc-program-delivery-toolkit">Explore toolkit</a></article>
-      </div>
-    </section>
+    <section class="section"><h2>Try the delivery lab</h2><p class="lead">These are not coding projects. They are interactive ways to show how I structure programme information, identify intervention points and communicate with decision-makers.</p><div class="grid2"><article class="card lab"><div class="lab-icon">◫</div><h3>Programme Command Centre</h3><p>Switch a fictional programme between On Track, Watch and At Risk. Milestones, decision ageing, forecast confidence, dependencies and governance priorities update with the scenario.</p><a class="button" href="command-centre.html">Open dashboard</a></article><article class="card lab"><div class="lab-icon">⇄</div><h3>Operational Excellence: Before → After</h3><p>Toggle between a fragmented manual vendor-onboarding process and a controlled future-state workflow. See where ownership, controls, visibility and automation change.</p><a class="button" href="before-after.html">Open transformation</a></article></div></section>
 
-    <section class="section">
-      <h2>Interactive Project Health Check</h2>
-      <p>This lightweight diagnostic demonstrates how I think about delivery health. Move the sliders to model a project; the score and recommended focus update instantly.</p>
-      <div class="health">
-        <div class="card" id="questions"></div>
-        <div class="scorebox"><div class="eyebrow">Delivery health</div><div class="score" id="score">75</div><div class="status" id="status">Watch</div><div class="advice" id="advice"></div></div>
-      </div>
-    </section>
+    <section class="section"><h2>Interactive Project Health Check</h2><p class="lead">Move the sliders to model a project. The assessment changes instantly. The point is not the algorithm — it is the delivery factors I look for when deciding where governance attention is needed.</p><div class="health"><div class="card" id="questions"></div><div class="scorebox"><div class="eyebrow">Delivery health</div><div class="score" id="score">75</div><div class="status" id="status">Watch</div><div class="advice" id="advice"></div></div></div></section>
 
-    <section class="section">
-      <h2>How I enter a new programme</h2>
-      <div class="card timeline">
-        <div><strong>First 30 days:</strong> understand scope, stakeholders, decisions, dependencies and delivery reality.</div>
-        <div><strong>Days 31–60:</strong> stabilise governance, ownership, reporting and blocker resolution.</div>
-        <div><strong>Days 61–90:</strong> simplify, automate where useful, improve predictability and scale what works.</div>
-      </div>
-      <p><a href="https://github.com/andrijasostaric/andrijasostaric/blob/main/case-studies/30-60-90-day-delivery-plan.md">Read the complete 30–60–90 day delivery plan →</a></p>
-    </section>
+    <section class="section"><h2>Working toolkits</h2><div class="grid"><article class="card portfolio-card"><h3>PMO Governance Toolkit</h3><p>Charter, RACI, RAID, decision log, governance cadence and executive reporting for a fictional cross-functional programme.</p><a class="button" href="https://github.com/andrijasostaric/pmo-governance-toolkit">Explore toolkit</a></article><article class="card portfolio-card"><h3>Operational Excellence & Automation</h3><p>A synthetic financial-services workflow showing current-state analysis, redesign, controls, automation logic and measurable outcomes.</p><a class="button" href="https://github.com/andrijasostaric/operational-excellence-automation">Explore case study</a></article><article class="card portfolio-card"><h3>GRC Programme Delivery</h3><p>ISO 27001 readiness planning, control ownership, evidence tracking, remediation and audit-readiness structure for a fictional SaaS company.</p><a class="button" href="https://github.com/andrijasostaric/grc-program-delivery-toolkit">Explore toolkit</a></article></div></section>
 
-    <section class="section">
-      <h2>Remote by design</h2>
-      <div class="card"><p>Several years of full-remote delivery shaped a simple principle: visibility should come from the operating system, not from people proving that they are online. I favour written-first coordination, explicit ownership, asynchronous status collection and live meetings for decisions and complex alignment.</p><a href="https://github.com/andrijasostaric/andrijasostaric/blob/main/case-studies/remote-delivery-operating-model.md">See the remote delivery operating model →</a></div>
-    </section>
+    <section class="section"><h2>How I enter a new programme</h2><div class="card timeline"><div><strong>First 30 days:</strong> understand scope, stakeholders, decisions, dependencies and delivery reality.</div><div><strong>Days 31–60:</strong> stabilise governance, ownership, reporting and blocker resolution.</div><div><strong>Days 61–90:</strong> simplify, automate where useful, improve predictability and scale what works.</div></div><p><a href="https://github.com/andrijasostaric/andrijasostaric/blob/main/case-studies/30-60-90-day-delivery-plan.md">Read the complete 30–60–90 day delivery plan →</a></p></section>
 
+    <section class="section"><h2>Remote by design</h2><div class="card"><p>Several years of full-remote delivery shaped a simple principle: visibility should come from the operating system, not from people proving that they are online. I favour written-first coordination, explicit ownership, asynchronous status collection and live meetings for decisions and complex alignment.</p><a href="https://github.com/andrijasostaric/andrijasostaric/blob/main/case-studies/remote-delivery-operating-model.md">See the remote delivery operating model →</a></div></section>
     <div class="notice"><strong>Portfolio integrity:</strong> all demonstration materials are synthetic or fictionalised. They are designed to show delivery thinking and do not disclose employer, client, audit or proprietary information.</div>
   </main>
   <footer>Andrija Sostaric · Sliema, Malta · <a href="https://www.linkedin.com/in/asostaric">LinkedIn</a> · <a href="mailto:andrija.sostaric@gmail.com">Email</a></footer>
   <script>
-    const factors=[
-      ['Scope clarity','Is the intended outcome and scope understood?',78],
-      ['Ownership','Are deliverables, risks and decisions clearly owned?',72],
-      ['Schedule confidence','Are milestones realistic and evidence-based?',68],
-      ['Dependency visibility','Are cross-team dependencies identified early?',70],
-      ['Decision speed','Are important decisions made and recorded quickly?',65],
-      ['Stakeholder alignment','Do sponsors and delivery teams share the same priorities?',76],
-      ['Operational readiness','Is handover/readiness planned before the final milestone?',66]
-    ];
-    const q=document.getElementById('questions');
-    factors.forEach((f,i)=>{q.insertAdjacentHTML('beforeend',`<div class="question"><label><span>${f[0]}</span><span id="v${i}">${f[2]}</span></label><small>${f[1]}</small><input id="r${i}" type="range" min="0" max="100" value="${f[2]}" aria-label="${f[0]}"></div>`)});
-    function update(){const vals=factors.map((_,i)=>+document.getElementById('r'+i).value);vals.forEach((v,i)=>document.getElementById('v'+i).textContent=v);const score=Math.round(vals.reduce((a,b)=>a+b,0)/vals.length);document.getElementById('score').textContent=score;let s,a;if(score>=85){s='On track';a='Protect the operating rhythm. Watch for emerging dependencies and avoid adding unnecessary governance.'}else if(score>=70){s='Watch';a='Delivery is viable, but one or two weak areas can turn into blockers. Focus on the lowest-scoring factors first.'}else if(score>=50){s='At risk';a='Create a short stabilisation plan: clarify ownership, surface dependencies, resolve ageing decisions and reset milestone confidence.'}else{s='Critical';a='Stop treating symptoms. Re-baseline scope, ownership, schedule and decision governance before committing to further dates.'}document.getElementById('status').textContent=s;document.getElementById('advice').textContent=a;}
-    factors.forEach((_,i)=>document.getElementById('r'+i).addEventListener('input',update));update();
+    const factors=[['Scope clarity','Is the intended outcome and scope understood?',78],['Ownership','Are deliverables, risks and decisions clearly owned?',72],['Schedule confidence','Are milestones realistic and evidence-based?',68],['Dependency visibility','Are cross-team dependencies identified early?',70],['Decision speed','Are important decisions made and recorded quickly?',65],['Stakeholder alignment','Do sponsors and delivery teams share the same priorities?',76],['Operational readiness','Is handover/readiness planned before the final milestone?',66]];
+    const q=document.getElementById('questions');factors.forEach((f,i)=>{q.insertAdjacentHTML('beforeend',`<div class="question"><label><span>${f[0]}</span><span id="v${i}">${f[2]}</span></label><small>${f[1]}</small><input id="r${i}" type="range" min="0" max="100" value="${f[2]}" aria-label="${f[0]}"></div>`)});
+    function update(){const vals=factors.map((_,i)=>+document.getElementById('r'+i).value);vals.forEach((v,i)=>document.getElementById('v'+i).textContent=v);const score=Math.round(vals.reduce((a,b)=>a+b,0)/vals.length);document.getElementById('score').textContent=score;let s,a;if(score>=85){s='On track';a='Protect the operating rhythm. Watch for emerging dependencies and avoid adding unnecessary governance.'}else if(score>=70){s='Watch';a='Delivery is viable, but one or two weak areas can turn into blockers. Focus on the lowest-scoring factors first.'}else if(score>=50){s='At risk';a='Create a short stabilisation plan: clarify ownership, surface dependencies, resolve ageing decisions and reset milestone confidence.'}else{s='Critical';a='Stop treating symptoms. Re-baseline scope, ownership, schedule and decision governance before committing to further dates.'}document.getElementById('status').textContent=s;document.getElementById('advice').textContent=a}factors.forEach((_,i)=>document.getElementById('r'+i).addEventListener('input',update));update();
   </script>
-</body>
-</html>
+</body></html>
