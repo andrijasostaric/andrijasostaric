@@ -13,9 +13,9 @@ I have several years of experience working in fully remote, international enviro
 
 If you only have a minute, start here:
 
-1. **[PMO Governance Toolkit](https://github.com/andrijasostaric/pmo-governance-toolkit)** — how I structure ownership, RAID, decisions and governance.
-2. **[Operational Excellence & Automation](https://github.com/andrijasostaric/operational-excellence-automation)** — how I analyse and redesign a manual operational workflow.
-3. **[GRC Programme Delivery Toolkit](https://github.com/andrijasostaric/grc-program-delivery-toolkit)** — how I organise controls, evidence, remediation and audit readiness.
+1. **[Live Project Delivery Portfolio](https://andrijasostaric.github.io/andrijasostaric/portfolio/)** — interactive overview of how I approach delivery.
+2. **[Programme Command Centre](https://andrijasostaric.github.io/andrijasostaric/portfolio/command-centre.html)** — switch a fictional programme between On Track, Watch and At Risk to see how governance priorities change.
+3. **[Operational Excellence: Before → After](https://andrijasostaric.github.io/andrijasostaric/portfolio/before-after.html)** — interactive current-state vs future-state process transformation.
 4. **[48-Hour Project Rescue Simulation](./case-studies/48-hour-project-rescue-simulation.md)** — how I restore control when a programme is slipping.
 5. **[Executive Decision Memo](./case-studies/executive-decision-memo.md)** — how I turn project detail into a decision-ready one-pager.
 
@@ -39,7 +39,7 @@ If you only have a minute, start here:
 - Third-party and vendor risk coordination
 - Executive reporting and stakeholder communication
 
-## Selected portfolio
+## Working toolkits
 
 ### [PMO Governance Toolkit](https://github.com/andrijasostaric/pmo-governance-toolkit)
 A practical demonstration of project governance: charter, RACI, RAID, decision log, reporting cadence and steering-committee structure.
@@ -52,19 +52,22 @@ A fictional SaaS ISO 27001 readiness programme showing control ownership, eviden
 
 ## Thinking under pressure
 
-Templates are useful, but project leadership is more visible when the situation is messy. These short simulations show the judgement behind the artefacts:
+Templates are useful, but project leadership is more visible when the situation is messy:
 
 - **[48-Hour Project Rescue Simulation](./case-studies/48-hour-project-rescue-simulation.md)** — slipping milestones, conflicting views, weak dependencies and ageing decisions.
 - **[Executive Decision Memo](./case-studies/executive-decision-memo.md)** — concise recommendation, options, impact and latest-safe decision date.
 - **[30–60–90 Day Delivery Plan](./case-studies/30-60-90-day-delivery-plan.md)** — how I approach a new programme without imposing process before understanding the work.
 - **[Remote Delivery Operating Model](./case-studies/remote-delivery-operating-model.md)** — written-first coordination, explicit ownership and decision-focused meetings.
 
-## Interactive portfolio experiment
+## Interactive delivery lab
 
-I also built a lightweight **Project Health Check** that turns seven delivery-health factors into a live RAG-style assessment and recommended focus. It is intentionally simple: the point is to demonstrate how I think about project health, not to present myself as a software engineer.
+The live portfolio is deliberately more than a static CV. It includes:
 
-**Source:** [portfolio/index.html](./portfolio/index.html)  
-**Live version once GitHub Pages is enabled:** `https://andrijasostaric.github.io/andrijasostaric/portfolio/`
+- **Project Health Check** — seven delivery-health factors converted into a live assessment and recommended focus.
+- **Programme Command Centre** — milestone confidence, decision ageing, risks, dependencies and governance priorities across three delivery scenarios.
+- **Before → After transformation** — a visual operational-excellence case showing how ownership, controls, visibility and automation change.
+
+**[Open the live portfolio →](https://andrijasostaric.github.io/andrijasostaric/portfolio/)**
 
 ## Delivery toolkit
 
